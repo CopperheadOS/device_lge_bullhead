@@ -156,8 +156,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/init.bullhead.qseecomd.sh:system/bin/init.bullhead.qseecomd.sh
 
-PRODUCT_COPY_FILES += \
-    branding/bootanimation.zip:system/media/bootanimation.zip
+-include branding/branding.mk
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 
